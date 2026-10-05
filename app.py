@@ -9,7 +9,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-model = joblib.load("model/champion_model.joblib")
+model = joblib.load("Model/champion_model.joblib")
 
 
 class Passenger(BaseModel):
